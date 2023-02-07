@@ -1,0 +1,151 @@
+//EvenOdd
+package wiprotalentnext;
+
+public class EvenOdd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=7;
+		int b=6;
+		int c=a+b;
+		if(c%2==0)
+		{
+		System.out.println("Sum of Number is Even");
+		}
+		else
+		{
+		System.out.println("Sum of Number is Odd");
+		}
+
+		}
+
+		}
+
+
+//From100to0
+package wiprotalentnext;
+import java.util.Scanner;
+public class from100to0 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		 System.out.print("Enter the end value :");
+		 int a = sc.nextInt();
+		 int i;
+		 for(i=a;i>=0;i--){
+		 
+		 System.out.print(i+" ");
+		 
+		 
+		 }
+		 
+		}
+	}
+  
+  
+  //numbers1to100
+ package wiprotalentnext;
+import java.util.Scanner;
+public class numbers1to100 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner sc= new Scanner(System.in);
+		 System.out.print("Enter the end value :");
+		 int a = sc.nextInt();
+		 int i;
+		 for(i=1;i<=a;i++){
+		 System.out.print(i+" ");
+		 }
+	}
+		}
+    
+    //numbers1to99
+    package wiprotalentnext;
+import java.util.Scanner;
+public class numbers1to99 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		 System.out.print("Enter the end value :");
+		 int a = sc.nextInt();
+		 int i;
+		 for(i=1;i<=a;i++){
+		 if(i%2!=0)
+		 {
+		 System.out.print(i+" ");
+		 }
+		 }
+	}}
+  
+  //Skipping2number
+  package wiprotalentnext;
+import java.util.Scanner;
+public class skipping2number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		 System.out.print("Enter the end value :");
+		 int a = sc.nextInt();
+		 int i;
+		 for(i=a;i>=0;i-=3){
+		 
+		 System.out.print(i+" ");
+		 
+		 
+		 }
+		 
+		}
+	}
+  
+  //Greater value
+  public class Greater {
+
+public static void main(String[] args)
+{
+// TODO Auto-generated method stub
+int a=6;
+int b=9;
+if(a<b)
+{
+System.out.println("B is greater");
+}
+else
+{
+System.out.println("A is greater");
+}
+
+}
+
+}
+
+//PositiveNegative
+public class negative
+{
+
+public static void main(String[] args)
+{
+// TODO Auto-generated method stub
+int num=-15;
+if(num>0)
+{
+System.out.println("The number given is positive");
+}
+else if(num<0)
+{
+System.out.println("The number given is negative");
+}
+else
+{
+System.out.println("The Number given is zero");
+}
+
+
+}
+
+}
+  
+  
